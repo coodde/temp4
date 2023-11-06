@@ -1,0 +1,15 @@
+{
+  "name": "temp4-backend",
+  "version": "1.0.0",
+  "description": "AWS Lambda function",
+  "main": "src/wordCounter.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.1000.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.5"
+  }
+}

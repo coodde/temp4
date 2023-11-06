@@ -1,0 +1,13 @@
+{
+  "name": "temp4",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "install": "cd backend && npm install && cd ../frontend && npm install",  // Install dependencies for both backend and frontend
+    "start": "cd backend && npm start",  // Start the backend (e.g., for local testing)
+    "build": "cd frontend && npm run build",  // Build the frontend for production
+    "deploy": "cd backend && serverless deploy",  // Deploy the AWS Lambda function
+  },
+  "dependencies": {
+  }
+}

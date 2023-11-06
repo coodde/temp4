@@ -1,0 +1,14 @@
+service: temp4
+provider:
+  name: aws
+  runtime: nodejs14.x
+  stage: dev
+  region: us-east-1
+
+functions:
+  wordCounter:
+    handler: src/wordCounter.handler
+    events:
+      - http:
+          path: /calculate
+          method: POST
